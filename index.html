@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserve sua Mesa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="form">
+    <h1>Reserve sua Mesa</h1>
+    <p>Por favor, preencha o formulário abaixo com atenção para que possamos atendê-lo da melhor forma possível. Seja bem-vindo!</p>
+    <hr>
+ 
+    <div class="row">
+      <label>Nome Completo</label>
+      <div class="split">
+        <div><input type="text"><small>Nome</small></div>
+        <div><input type="text"><small>Sobrenome</small></div>
+      </div>
+    </div>
+ 
+    <div class="row">
+      <label>E-mail</label>
+      <input type="email" placeholder="ex: myname@example.com">
+    </div>
+ 
+    <div class="row">
+      <label>Telefone</label>
+      <input type="tel">
+    </div>
+ 
+    <div class="row">
+      <label>Número de Pessoas</label>
+      <input type="number">
+    </div>
+ 
+    <hr>
+    <div class="row"><label>Reserva</label></div>
+    <hr>
+ 
+    <div class="row">
+      <label>Tipo de Reserva</label>
+      <select>
+        <option selected disabled>Please Select</option>
+        <option>Jantar</option>
+        <option>Almoço</option>
+        <option>Outro</option>
+      </select>
+    </div>
+ 
+    <div class="row">
+      <label>Se "Outro" acima, especifique</label>
+      <input type="text">
+    </div>
+ 
+    <div class="row">
+      <label>Pedidos Especiais</label>
+      <textarea rows="2"></textarea>
+    </div>
+ 
+    <hr>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
